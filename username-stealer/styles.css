@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    padding: 35px;
+}
+
+#signup, #error, #success {
+    border: .5px solid black;
+    border-radius: 8px;
+    width: 50%;
+    margin: 45px auto;
+}
+
+.text {
+    margin: 25px auto;
+    display: block;
+    
+    padding: 8px 0px 8px 16px;
+    width: 50%
+}
+
+input[type=submit], .decide {
+    width: 35%;
+    padding: 6px 14px;
+    margin-bottom: 25px;
+}
+
+#error {
+    display: none;
+    color: red;
+}
+
+.decide {
+    margin: 0 10px 25px 10px;
+}
+
+#success {
+    display: none;
+}

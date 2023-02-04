@@ -1,0 +1,1 @@
+This is just a small collection of projects made for the [r/badUIbattles](https://www.reddit.com/r/baduibattles) subreddit. These projects are purposely made to be made fun of and have absolutely no other purpose. Enjoy :)

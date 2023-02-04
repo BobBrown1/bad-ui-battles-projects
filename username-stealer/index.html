@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Create an Account</title>
+</head>
+<body>
+    <h2>Create an Account to Begin</h2>
+    <form id="signup">
+        <input id="username" class="text" type="text" required/>
+        <input id="password" class="text" type="password" required/>
+        <input type="submit">
+    </form>
+    <div id="error">
+        <h2>Uh Oh!</h2>
+        <p id="error-msg"></p>
+        <p>Would you like to take the username anyways?</p>
+        <button onclick="take()" class="decide">Yes</button>
+        <button onclick="leave()" class="decide">No</button>
+    </div>
+    <div id="success">
+        <h2>Successfully Created Account</h2>
+        <p>Your account has been created.</p>
+        <p id = "new-username"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

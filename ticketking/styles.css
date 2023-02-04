@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    padding: 55px;
+}
+
+.tickets {
+    display: inline-block
+}
+
+.map {
+    height: 400px;
+    width: auto;
+    float: left;
+}
