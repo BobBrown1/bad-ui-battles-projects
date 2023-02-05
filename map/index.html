@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <title>Enter Your Address</title>
+</head>
+<body>
+    <div>
+        <br>
+        <input type="text" placeholder="Username" /><br>
+        <input type="email" placeholder="Email" /><br>
+        <input type="tel" placeholder="Phone Number" /><br>
+
+
+        <label id="address">Address: <button onclick="showMap()">Select Address</button><br><br></label>
+    </div>
+
+    <div id="map">Map</div><br>
+
+
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+    <script src="index.js"></script>
+</body>
+</html>
